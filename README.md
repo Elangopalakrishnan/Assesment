@@ -1,4 +1,4 @@
-# Assesment
+# Assessment
 Small Cucumber Project for Web Application Testing
 
 
