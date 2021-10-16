@@ -20,3 +20,6 @@ Advanched html report on the cloud
 ![image](https://user-images.githubusercontent.com/26897289/137601292-a61942f2-67a1-46e3-859c-2755741eff69.png)
 
 
+Further Improvements: We can use data provider / Apachi POI when scope of test coverage is increase.
+Write common methods class to keep all common methods and call them where ever wanted (like click(), double-clik(), drop-down, actions() etc..)
+And Add Plug-ins for extented reporting as per requirement.
