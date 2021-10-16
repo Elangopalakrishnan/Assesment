@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="62.792">
+<testcase classname="Add Products to Cart" name="Add Products to Wishlist and then to Cart" time="62.458">
+<failure message="For input string: &quot;£22.00 – £89.00&quot;" type="java.lang.NumberFormatException"><![CDATA[Given I add four products to my wish list...................................passed
+When I view my wishlist table...............................................passed
+Then I find total four selected items in my Wishlist........................passed
+When I search for lowest price product......................................failed
+And I am able to add the lowest price item to my cart.......................skipped
+Then I am able to verify the item in my cart................................skipped
+
+StackTrace:
+java.lang.NumberFormatException: For input string: "£22.00 – £89.00"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at stepDefinitions.ProductsSteps.i_search_for_lowest_price_product(ProductsSteps.java:91)
+	at ✽.I search for lowest price product(file:///Users/pree/eclipse-workspace/Assessment/src/test/java/webAppTestFeatures/AddToCart.feature:14)
+]]></failure>
+</testcase>
+</testsuite>
