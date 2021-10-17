@@ -7,9 +7,9 @@ How to Execute?
 You are ready to automate the test in Bhinneka.com login
 Run your test using mvn install or mvn verify from Terminal
 2. Test Result
-See the result inside target/cucumber-reports/advanced-reports/cucumber-html-reports or target/cucumber-reports/cucumber-pretty folders that automatically generated after finished the test execution
+See the result inside target/MyReports/report.html or target/MyReports/report.json folders that automatically generated after finished the test execution
 Open html file in your browser
-Or you can create your result view using json file inside target/cucumber-reports
+Or you can create your result https://reports.cucumber.io/reports/<GUID> by setting publish=true in @CucumberOptions in runner class
 Some sample of test results
 
 Basic Sample Test Report
