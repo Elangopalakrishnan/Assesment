@@ -4,8 +4,7 @@ Small Cucumber Project for Web Application Testing
 
 How to Execute?
 1. Run the Test
-You are ready to automate the test in Bhinneka.com login
-Run your test using mvn install or mvn verify from Terminal
+Run your test using mvn install or mvn verify from Terminal, mvn test -Dcucumber.filter.tags="@SmokeTests"
 2. Test Result
 See the result inside target/MyReports/report.html or target/MyReports/report.json folders that automatically generated after finished the test execution
 Open html file in your browser
